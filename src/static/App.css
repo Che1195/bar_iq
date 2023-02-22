@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	/* text-transform: capitalize; */
+	transition: 2s linear;
+}
+
+.container {
+	background: lightskyblue;
+	min-height: 100vh;
+	padding: 15px 5%;
+	padding-bottom: 5%;
+}
+
+.container .heading {
+	text-align: center;
+	padding-bottom: 15px;
+	color: #fff;
+	text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	font-size: 50px;
+}
+
+.container .search-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 16px 0;
+}
+
+.container .search-box input {
+	background-color: white;
+	border: 0;
+	border-radius: 8px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	font-size: 18px;
+	padding: 15px;
+	height: 36px;
+	max-width: 480px;
+	min-width: 350px;
+}
+
+.container .search-box .search-icon {
+	color: grey;
+	height: 36px;
+	width: 40px;
+	background-color: white;
+	display: grid;
+	place-items: center;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+/* .container .filter-bar {
+	padding: 5px 5px;
+	font-size: 16px;
+	margin: 10px 0 15px 0;
+	width: 100%;
+	border-radius: 5px;
+	max-width: 480px;
+	min-width: 350px;
+} */
+
+.container .card-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+	/* justify-content: center; */
+	/* align-items: center; */
+	gap: 12px;
+}
+
+@media screen and (max-width: 730px) {
+	.container .card-container {
+		grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+	}
+}
+
+.container .card-container .card {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	background: #fff;
+	text-align: center;
+	padding: 30px 20px;
+	max-width: 480px;
+}
+
+.container .card-container .card .name {
+	color: #444;
+	font-size: 22px;
+	padding: 10px 0;
+}
+
+.container .card-container .card .config {
+	color: #777;
+	font-size: 15px;
+	line-height: 1.8;
+}
+
+.container .card-container .card .ingredients-title,
+.container .card-container .card .steps-title {
+	color: #000;
+	font-size: 15px;
+	line-height: 2;
+}
+
+.container .card-container .card .steps-text,
+.container .card-container .card .ingredients-text {
+	color: #333;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* .container .card-container .card .steps-text {
+	text-align: left;
+} */

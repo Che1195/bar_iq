@@ -1,0 +1,38 @@
+.container .card-container .card {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	background: #fff;
+	text-align: center;
+	padding: 25px 20px;
+}
+
+.container .card-container .card .name {
+	color: #444;
+	font-size: 22px;
+	padding: 0 0 10px 0;
+}
+
+.container .card-container .card .config {
+	color: #777;
+	font-size: 15px;
+	line-height: 1.8;
+}
+
+.container .card-container .card .ingredients-title,
+.container .card-container .card .steps-title {
+	color: #000;
+	font-size: 15px;
+	line-height: 2;
+}
+
+.container .card-container .card .steps-text,
+.container .card-container .card .ingredients-text {
+	color: #333;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.container .card-container .card .steps-text {
+	text-align: left;
+	list-style-position: inside;
+}
