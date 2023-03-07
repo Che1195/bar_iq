@@ -1,7 +1,7 @@
 import "../static/DrinkCard.css";
 
 const DrinkCard = ({ drink }) => {
-	const { name, method, glass, garnish, ingredients, steps } = drink;
+	const { name, method, glass, garnish, ingredients, steps, options } = drink;
 	return (
 		<div className="card-container">
 			<div className="card">
@@ -20,6 +20,12 @@ const DrinkCard = ({ drink }) => {
 					{steps.map((step) => (
 						<li className="steps-text">{step}</li>
 					))}
+				</ol>
+				{options ? <h4 className="steps-title">Options</h4> : null}
+				<ol>
+					{options
+						? options.map((option) => <li className="steps-text">{option}</li>)
+						: null}
 				</ol>
 			</div>
 		</div>
