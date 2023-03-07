@@ -4,6 +4,7 @@ import DrinkCard from "./Components/DrinkCard";
 import data from "./data/data-from-excel.json";
 import SearchIcon from "@mui/icons-material/Search";
 
+/** for filtering the drink card as the user types into the search bar*/
 const getFilteredDrinks = (query, drinks) => {
 	if (!query) {
 		return [];
