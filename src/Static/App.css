@@ -1,0 +1,35 @@
+/* App.css */
+
+:root {
+    --primary-color: #ffccf7;
+    --secondary-color: #c5fdff;
+    --background-color: #ffffff;
+    --primary-text-color: #000000;
+    --secondary-text-color: #757575;
+    --border-color: #d0d0d0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.page-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--secondary-color);
+    text-shadow: 4px 3px 1px var(--primary-color);
+  }
+

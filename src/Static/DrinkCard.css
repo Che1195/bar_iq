@@ -1,0 +1,76 @@
+/* DrinkCard.css */
+
+.drink-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50vh;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+}
+
+.drink-card {
+  background-color: #fff;
+  border-color: #d0d0d0;
+  border-radius: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.drink-card h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.drink-card h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.drink-card p {
+  margin: 0.25rem 0;
+}
+
+.drink-card ul,
+.drink-card ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 16px;
+}
+
+.drink-card li {
+	margin-bottom: 0.5rem;
+	font-size: .9rem;
+	font-weight: bold;
+	color: #555;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 8px;
+	min-width: 100px;
+  }
+  
+  .drink-card li img {
+	max-height: 150px;
+	height: auto;
+	object-fit: contain;
+  }
+  
+  .line-break {
+    border-bottom: 1.81px solid black;
+    width: 65%;
+    margin: auto;
+
+  }
+
