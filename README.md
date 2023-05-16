@@ -29,7 +29,7 @@ git clone https://github.com/yourgithubusername/BarIQ.git
 2. Navigate into the project directory:
 
 ```
-cd BarIQ
+cd bar_iq
 ```
 
 3. Install the project dependencies:
