@@ -3,14 +3,8 @@ import React, { useState } from "react";
 
 import DrinkCard from "./Components/DrinkCard";
 import SearchBar from "./Components/SearchBar";
-import IngredientImage from "./Components/IngredientImage";
 
 import DRINKS_DATA from "./Static/data.json";
-
-const getIngredientImageFileName = (name) => {
-  const fileName = name.replace(/\s+/g, "_");
-  return `./images/${fileName}.png`;
-};
 
 const App = () => {
   const suggestions = DRINKS_DATA;

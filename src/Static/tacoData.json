@@ -1,0 +1,212 @@
+[
+  {
+    "name": "fried avocado",
+    "price": 4.75,
+    "ingredients": [
+      "fried avocado",
+      "pico de gallo",
+      "roasted corn",
+      "house aioli"
+    ],
+    "type": "veggie"
+  },
+  {
+    "name": "sweet potato",
+    "price": 4.5,
+    "ingredients": [
+      "roasted sweet potato",
+      "picked red cabbage",
+      "mexican crema and cilantro"
+    ],
+    "type": "veggie"
+  },
+  {
+    "name": "spicy ‘shroom",
+    "price": 4.5,
+    "ingredients": [
+      "mushrooms",
+      "roasted corn",
+      "pickled red onions",
+      "queso fresco",
+      "red pepper sauce"
+    ],
+    "type": "veggie"
+  },
+  {
+    "name": "beer battered fish",
+    "price": 4.95,
+    "ingredients": [
+      "beer battered grouper",
+      "cilantro slaw",
+      "pickled red onions",
+      "tartar sauce"
+    ],
+    "type": "seafood"
+  },
+  {
+    "name": "blackened salmon",
+    "price": 4.95,
+    "ingredients": ["salmon", "sriracha coleslaw", "pineapples", "jalapenos"],
+    "type": "seafood"
+  },
+  {
+    "name": "shake down shrimp",
+    "price": 4.95,
+    "ingredients": [
+      "beer battered fried shrimp",
+      "coleslaw",
+      "pico de gallo",
+      "fresno peppers",
+      "aioli"
+    ],
+    "type": "seafood"
+  },
+  {
+    "name": "shrimp & bacon",
+    "price": 4.95,
+    "ingredients": [
+      "sauteed shrimp",
+      "bacon",
+      "sriracha coleslaw",
+      "pico de gallo"
+    ],
+    "type": "seafood"
+  },
+  {
+    "name": "surf & turf",
+    "price": 4.95,
+    "ingredients": [
+      "skirt steak",
+      "sauteed shrimp",
+      "caramelized onions",
+      "chipotle aoli"
+    ],
+    "type": "seafood"
+  },
+  {
+    "name": "pollo asado",
+    "price": 4.75,
+    "ingredients": ["onions", "cilantro", "mexican crema"],
+    "type": "chicken"
+  },
+  {
+    "name": "buffalo chicken",
+    "price": 4.75,
+    "ingredients": [
+      "fried chicken tossed in buffalo sauce",
+      "blue cheese crumbles",
+      "green onions"
+    ],
+    "type": "chicken"
+  },
+  {
+    "name": "jamaican jerk chicken",
+    "price": 4.75,
+    "ingredients": ["mango chutney", "fresno peppers", "fresh mango"],
+    "type": "chicken"
+  },
+  {
+    "name": "the crunchy ranch chicken",
+    "price": 4.75,
+    "ingredients": [
+      "fried chicken",
+      "cole slaw",
+      "kosher pickles",
+      "ranch dressing"
+    ],
+    "type": "chicken"
+  },
+  {
+    "name": "birria",
+    "price": 5.25,
+    "ingredients": [
+      "braised beef",
+      "melted cheese",
+      "onion",
+      "cilantro",
+      "guacamole",
+      "consommé for dipping"
+    ],
+    "type": "beef"
+  },
+  {
+    "name": "korean bulgogi",
+    "price": 4.95,
+    "ingredients": [
+      "korean style steak",
+      "kimchi",
+      "green onions",
+      "sesame seeds",
+      "peanut sauce"
+    ],
+    "type": "beef"
+  },
+  {
+    "name": "carne asada",
+    "price": 4.95,
+    "ingredients": [
+      "marinated steak",
+      "white onions",
+      "jalapeno",
+      "chimichurri sauce"
+    ],
+    "type": "beef"
+  },
+  {
+    "name": "steak & mushroom",
+    "price": 4.95,
+    "ingredients": [
+      "skirt steak",
+      "mushrooms",
+      "tomatoes",
+      "shredded cheese",
+      "chipotle aioli"
+    ],
+    "type": "beef"
+  },
+  {
+    "name": "pomegranate steak",
+    "price": 4.95,
+    "ingredients": [
+      "glazed skirt steak",
+      "cilantro slaw",
+      "pickled cabbage",
+      "caramelized onions"
+    ],
+    "type": "beef"
+  },
+  {
+    "name": "el gringo",
+    "price": 4.5,
+    "ingredients": [
+      "ground beef",
+      "lettuce",
+      "pico de gallo",
+      "melted queso",
+      "jack cheese"
+    ],
+    "type": "beef"
+  },
+  {
+    "name": "carnitas",
+    "price": 4.5,
+    "ingredients": ["slow roasted pork", "pickled red onions"],
+    "type": "pork"
+  },
+  {
+    "name": "al pastor",
+    "price": 4.5,
+    "ingredients": ["marinated pork", "grilled pineapples", "cilantro onion"],
+    "type": "pork"
+  },
+  {
+    "name": "pork belly",
+    "price": 4.75,
+    "ingredients": [
+      "slow roasted pork belly",
+      "sauteed in chipotle bbq sauce",
+      "grilled pineapple"
+    ],
+    "type": "pork"
+  }
+]

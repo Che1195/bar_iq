@@ -625,5 +625,96 @@
       "instructions": [],
       "glass": "12 oz glass",
       "alcohol": "Whiskey"
+    },
+    {
+      "id": 25,
+      "name": "Mi Vida Loca",
+      "ingredients": [
+        {
+          "ingredient": "Captain Morgan",
+          "amount": 1
+        },
+        {
+          "ingredient": "Malibu",
+          "amount": 1
+        },
+        {
+          "ingredient": "Pineapple Juice",
+          "type": "fill"
+        },
+        {
+          "ingredient": "Cranberry Juice",
+          "type": "fill"
+        },
+        {
+          "ingredient": "Mango puree",
+          "type": "splash"
+        },
+        {
+          "ingredient": "Grenadine",
+          "type": "drizzle"
+        }
+      ],
+      "instructions": [
+        "Build in Collins glass"
+      ],
+      "glass": "Collins"
+    },
+    {
+      "id": 26,
+      "name": "Papi Fuego",
+      "ingredients": [
+        {
+          "ingredient": "1800 Reposado",
+          "amount": 2
+        },
+        {
+          "ingredient": "Simple Syrup",
+          "amount": 0.5
+        },
+        {
+          "ingredient": "Orange Slice",
+          "amount": 1,
+          "unit": "squeezed"
+        },
+        {
+          "ingredient": "Angostura Bitters",
+          "amount": 2,
+          "unit": "dash"
+        }
+      ],
+      "instructions": [
+        "Stir"
+      ],
+      "glass": "Rocks"
+    },
+    {
+      "id": 27,
+      "name": "Up in smoke",
+      "ingredients": [
+        {
+          "ingredient": "Mezcal",
+          "amount": 2
+        },
+        {
+          "ingredient": "Lemon Wedges",
+          "amount": 3,
+          "unit": "squeezed"
+        },
+        {
+          "ingredient": "Mint Leaves",
+          "amount": 3
+        },
+        {
+          "ingredient": "Simple Syrup",
+          "amount": 1
+        }
+      ],
+      "instructions": [
+        "Shake and strain over fresh ice"
+      ],
+      "glass": "Rocks",
+      "garnish": "1 mint leave"
     }
+    
   ]

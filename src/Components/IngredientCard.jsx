@@ -8,7 +8,7 @@ const getIngredientImageFileName = (name) => {
 };
 
 const IngredientCard = ({ ingredient, index }) => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   return (
     <li key={index} onClick={() => setShow(!show)}>
@@ -22,6 +22,7 @@ const IngredientCard = ({ ingredient, index }) => {
 
       {ingredient.amount && show ? `${ingredient.amount}` : ""}
       {typeof ingredient.amount === typeof 1 && show ? "oz, " : " "}
+      {ingredient.type ? `${ingredient.type} ` : " "}
       {ingredient.ingredient && show ? `${ingredient.ingredient} ` : ""}
     </li>
   );
