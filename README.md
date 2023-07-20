@@ -18,6 +18,10 @@ These instructions will get you a copy of the project up and running on your loc
 * [Node.js](https://nodejs.org/) - JavaScript runtime environment.
 * [npm](https://www.npmjs.com/) - Node package manager.
 
+### Website link
+
+https://dainty-sorbet-54f56d.netlify.app/
+
 ### Installing
 
 1. Clone the repository to your local machine:
@@ -29,7 +33,7 @@ git clone https://github.com/yourgithubusername/BarIQ.git
 2. Navigate into the project directory:
 
 ```
-cd BarIQ
+cd bar_iq
 ```
 
 3. Install the project dependencies:
