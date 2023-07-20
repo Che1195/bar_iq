@@ -434,7 +434,8 @@
         "amount": 0.75
       },
       {
-        "ingredient": "Gosling Float",
+        "ingredient": "Gosling",
+        "type": "Float",
         "amount": 0.75
       },
       {
