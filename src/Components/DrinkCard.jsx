@@ -12,14 +12,14 @@ const DrinkCard = ({ drink }) => {
           <p>
             <strong>Glass:</strong> {drink.glass}
           </p>
+          {/* display ingredients with pictures */}
           <h3>Ingredients</h3>
           <ul>
-            {/* display ingredients with pictures */}
             {drink.ingredients.map((ingredient, index) => (
               <IngredientCard ingredient={ingredient} index={index} />
             ))}
           </ul>
-
+          {/* display Instructions if they exist */}
           {Array.isArray(drink.instructions) ? (
             <div>
               <h3>Instructions</h3>
