@@ -1,8 +1,10 @@
 /* App.css */
 
 :root {
-    --primary-color: #0088ff;
-    --secondary-color: #c5fdff;
+    /* --primary-color: #0088ff;
+    --secondary-color: #c5fdff; */
+    --primary-color: #ff9720;
+    --secondary-color: #000000;
     --background-color: #;
     --primary-text-color: #000000;
     --secondary-text-color: #757575;
