@@ -1,720 +1,768 @@
 [
-    {
-      "id": 1,
-      "name": "Mojito",
-      "ingredients": [
-        {
-          "ingredient": "Rail Rum",
-          "amount": 1.5
-        },
-        {
-          "ingredient": "Simple Syrup",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Lime Juice",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Sour Mix",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Soda Water",
-          "amount": "topping"
-        },
-        {
-          "ingredient": "Mint"
-        },
-        {
-          "ingredient": "Lime Wheels",
-          "amount": 2
-        }
-      ],
-      "glass": "Collins Glass",
-      "garnish": "None",
-      "instructions": "Build in 12 oz plastic glass, shred mint, transfer in tin to shake, transfer back to plastic",
-      "alcohol": "Rum"
-    },
-    {
-      "id": 2,
-      "name": "Manhattan",
-      "ingredients": [
-        {
-          "ingredient": "Makers",
-          "amount": 2,
-          "note": "Unless Guest Special Request"
-        },
-        {
-          "ingredient": "Sweet Vermouth",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Angostura Bitters",
-          "amount": 2,
-          "unit": "dash"
-        }
-      ],
-      "method": "Stirred Not Shaken",
-      "glass": "Coupe",
-      "garnish": "No Garnish",
-      "alcohol": "Whiskey"
-    },
-    {
-      "id": 3,
-      "name": "Old Fashion",
-      "ingredients": [
-        {
-          "ingredient": "Makers",
-          "amount": 2,
-          "note": "Unless Guest Special Request"
-        },
-        {
-          "ingredient": "Simple Syrup",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Angostura Bitters",
-          "amount": 2,
-          "unit": "dash"
-        },
-        {
-          "ingredient": "Orange Slice",
-          "amount": "squeeze"
-        }
-      ],
-      "glass": "Rocks/ Whiskey",
-      "garnish": "Orange In Drink",
-      "alcohol": "Whiskey"
-    },
-    {
-      "id": 4,
-      "name": "Cosmopolitan",
-      "ingredients": [
-        {
-          "ingredient": "Absolut Citron",
-          "amount": 1.5
-        },
-        {
-          "ingredient": "Triple Sec",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Lime Juice",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Cranberry Juice",
-          "amount": 1
-        }
-      ],
-      "glass": "Coupe",
-      "garnish": "Lime Wheel",
-      "alcohol": "Vodka"
-    },
-    {
-      "id": 5,
-      "name": "Bloody Mary",
-      "ingredients": [
-        {
-          "ingredient": "Rail Vodka",
-          "amount": 1.5
-        },
-        {
-          "ingredient": "Lime Juice",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Bloody Mary Mix",
-          "amount": "fill"
-        },
-        {
-          "ingredient": "Worcestershire Sauce",
-          "amount": 2,
-          "unit": "dash"
-        },
-        {
-          "ingredient": "Tabasco",
-          "amount": 3,
-          "unit": "dash"
-        }
-      ],
-      "glass": "Pint",
-      "garnish": "Olive",
-      "alcohol": "Vodka"
-    },
-    {
-      "id": 6,
-      "name": "Tom Collins",
-      "ingredients": [
-        {
-          "ingredient": "Rail Gin",
-          "amount": 1.5
-        },
-        {
-          "ingredient": "Lemon Juice",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Simple Syrup",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Soda Water",
-          "amount": "topping"
-        }
-      ],
-      "method": "Shake Ingredients Together",
-      "glass": "Collins",
-      "garnish": "Lemon Wedge",
-      "alcohol": "Gin"
-    },
-    {
-      "id": 7,
-      "name": "Sex on the Beach",
-      "ingredients": [
-        {
-          "ingredient": "Vodka",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Peach Schnapps",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Orange Juice",
-          "amount": "equal parts"
-        },
-        {
-          "ingredient": "Cranberry Juice",
-          "amount": "equal parts"
-        }
-      ],
-      "glass": "Shooter Or Collins",
-      "garnish": "Orange When In Collins Glass. No Garnish On Shooter",
-      "alcohol": "Vodka"
-    },
-    {
-      "id": 8,
-      "name": "Lemon Drop",
-      "ingredients": [
-        {
-          "ingredient": "Burnetts Citrus",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Triple Sec",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Simple Syrup",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Sour Mix",
-          "amount": 0.5
-        }
-      ],
-      "glass": "Shooter",
-      "garnish": "Sugar Rim (Give Them An Option To Save Time)",
-      "alcohol": "Vodka"
-    },
-    {
-      "id": 9,
-      "name": "Gummy Bear",
-      "ingredients": [
-        {
-          "ingredient": "Burnetts Razz",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Peach Schnapps",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Sour Mix",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Sprite",
-          "amount": "splash"
-        }
-      ],
-      "glass": "Shooter",
-      "garnish": "None",
-      "alcohol": "Vodka"
-    },
-    {
-      "id": 10,
-      "name": "Apple Martini",
-      "ingredients": [
-        {
-          "ingredient": "Rail Vodka",
-          "amount": 1
-        },
-        {
-          "ingredient": "Apple Pucker",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Sour Mix",
-          "amount": "splash"
-        }
-      ],
-      "glass": "Coupe",
-      "garnish": "Cherry",
-      "alcohol": "Vodka"
-    },
-    {
-      "id": 11,
-      "name": "Moscow Mule",
-      "ingredients": [
-        {
-          "ingredient": "Absolut Lime",
-          "amount": 1.5,
-          "note": "Unless Guest Special Request"
-        },
-        {
-          "ingredient": "Ginger Beer",
-          "amount": "fill"
-        }
-      ],
-      "glass": "12oz Margarita Glass",
-      "garnish": "Lime Wheel",
-      "alcohol": "Vodka"
-    },
-    {
-      "id": 12,
-      "name": "Long Island",
-      "ingredients": [
-        {
-          "ingredient": "Rail Gin",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Rail Vodka",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Triple Sec",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Rail Rum",
-          "amount": 1
-        },
-        {
-          "ingredient": "Sour Mix",
-          "amount": "splash"
-        },
-        {
-          "ingredient": "Coke",
-          "amount": "splash"
-        }
-      ],
-      "glass": "Pint",
-      "garnish": "Lemon Wedge",
-      "alcohol": "Mix"
-    },
-    {
-      "id": 13,
-      "name": "Kamikaze",
-      "ingredients": [
-        {
-          "ingredient": "Vodka",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Triple Sec",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Sour Mix",
-          "amount": "splash"
-        }
-      ],
-      "glass": "Shooter",
-      "garnish": "None",
-      "alcohol": "Vodka"
-    },
-    {
-      "id": 14,
-      "name": "Vegas Bomb",
-      "ingredients": [
-        {
-          "ingredient": "Crown Royal",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Peach Schnapps",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Redbull",
-          "amount": "add"
-        }
-      ],
-      "glass": "9oz Rocks",
-      "garnish": "None",
-      "alcohol": "Whiskey"
-    },
-    {
-      "id": 15,
-      "name": "Orange Crush",
-      "ingredients": [
-        {
-          "ingredient": "Absolut Mandarin",
-          "amount": 1.5
-        },
-        {
-          "ingredient": "Triple Sec",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Orange Juice",
-          "amount": "fill"
-        },
-        {
-          "ingredient": "Sprite",
-          "amount": "splash"
-        }
-      ],
-      "glass": "Pint Glass",
-      "garnish": "Orange Slice",
-      "alcohol": "Vodka"
-    },
-    {
-      "id": 16,
-      "name": "Blue Motorcycle",
-      "ingredients": [
-        {
-          "ingredient": "Rail Vodka",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Rail Gin",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Blue Curacao",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Rail Rum",
-          "amount": 1
-        },
-        {
-          "ingredient": "Sour Mix",
-          "amount": "splash"
-        },
-        {
-          "ingredient": "Sprite",
-          "amount": "splash"
-        }
-      ],
-      "glass": "Pint",
-      "garnish": "Lemon Wedge",
-      "alcohol": "Mix"
-    },
-    {
-      "id": 17,
-      "name": "Mai Tai, Rum Punch and Rum Runner",
-      "ingredients": [
-        {
-          "ingredient": "Captain Morgan",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Bacardi",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Gosling Float",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Pineapple Juice",
-          "amount": "fill half"
-        },
-        {
-          "ingredient": "Orange Juice",
-          "amount": "fill half"
-        },
-        {
-          "ingredient": "Grenadine",
-          "amount": "splash"
-        }
-      ],
-      "glass": "Pint",
-      "alcohol": "Rum"
-    },
-    {
-      "id": 18,
-      "name": "House Margarita",
-      "ingredients": [
-        {
-          "ingredient": "Cazadores",
-          "amount": 1.5
-        },
-        {
-          "ingredient": "Triple Sec",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Sour Mix",
-          "amount": "fill"
-        }
-      ],
-      "instructions": [
-        "Add flavor if requested",
-        "Offer salt or sugar rim",
-        "Shake & strain over fresh ice"
-      ],
-      "glass": "12 oz glass or cup",
-      "alcohol": "Tequila"
-    },
-    {
-      "id": 19,
-      "name": "Grande 24 oz Margarita",
-      "ingredients": [
-        {
-          "ingredient": "Cazadores",
-          "amount": 2
-        },
-        {
-          "ingredient": "Triple Sec",
-          "amount": 1
-        },
-        {
-          "ingredient": "Sour Mix",
-          "amount": "fill"
-        }
-      ],
-      "instructions": [
-        "Add flavor if requested",
-        "Offer salt or sugar rim",
-        "Shake & strain over fresh ice"
-      ],
-      "glass": "20 oz glass or cup",
-      "alcohol": "Tequila"
-    },
-    {
-      "id": 20,
-      "name": "Grande 24 oz Margarita w/ Plunge",
-      "ingredients": [
-        {
-          "ingredient": "Cazadores",
-          "amount": 2
-        },
-        {
-          "ingredient": "Triple Sec",
-          "amount": 1
-        },
-        {
-          "ingredient": "Sour Mix",
-          "amount": "fill"
-        }
-      ],
-      "instructions": [
-        "Add flavor if requested",
-        "Leave room for Coronita",
-        "Shake & strain over fresh ice"
-      ],
-      "glass": "20 oz glass or cup",
-      "alcohol": "Tequila"
-    },
-    {
-      "id": 21,
-      "name": "Slim 67",
-      "ingredients": [
-        {
-          "ingredient": "Cazadores",
-          "amount": 1.5
-        },
-        {
-          "ingredient": "Lime Juice",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Agave",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Soda Water",
-          "amount": "top"
-        }
-      ],
-      "instructions": [
-        "Offer salt or sugar rim",
-        "Shake & strain over fresh ice"
-      ],
-      "glass": "12 oz glass",
-      "alcohol": "Tequila"
-    },
-    {
-      "id": 22,
-      "name": "Jalapeno Margarita",
-      "ingredients": [
-        {
-          "ingredient": "Jalapeno Tequila",
-          "amount": 1.5
-        },
-        {
-          "ingredient": "Habanero Agave",
-          "amount": 0.75
-        },
-        {
-          "ingredient": "Sour Mix",
-          "amount": "fill"
-        }
-      ],
-      "instructions": [
-        "Offer salt or sugar rim",
-        "Shake and strain over fresh ice"
-      ],
-      "glass": "12 oz glass",
-      "alcohol": "Tequila"
-    },
-    {
-      "id": 23,
-      "name": "Mexican Mule",
-      "ingredients": [
-        {
-          "ingredient": "Milagro Tequila",
-          "amount": 1.5
-        },
-        {
-          "ingredient": "Angostura Bitters",
-          "amount": 2,
-          "unit": "dash"
-        },
-        {
-          "ingredient": "Lime Juice",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Ginger Beer",
-          "amount": "fill"
-        }
-      ],
-      "instructions": [],
-      "glass": "12 oz glass",
-      "alcohol": "Tequila"
-    },
-    {
-      "id": 24,
-      "name": "Jameson Cold Brew Cocktail",
-      "ingredients": [
-        {
-          "ingredient": "Jameson Cold Brew Whiskey",
-          "amount": 1
-        },
-        {
-          "ingredient": "St. Brenans Irish Cream Liqueur",
-          "amount": 1
-        },
-        {
-          "ingredient": "Simple Syrup",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Cold Brew Coffee",
-          "amount": "fill"
-        }
-      ],
-      "instructions": [],
-      "glass": "12 oz glass",
-      "alcohol": "Whiskey"
-    },
-    {
-      "id": 25,
-      "name": "Mi Vida Loca",
-      "ingredients": [
-        {
-          "ingredient": "Captain Morgan",
-          "amount": 1
-        },
-        {
-          "ingredient": "Malibu",
-          "amount": 1
-        },
-        {
-          "ingredient": "Pineapple Juice",
-          "type": "fill"
-        },
-        {
-          "ingredient": "Cranberry Juice",
-          "type": "fill"
-        },
-        {
-          "ingredient": "Mango puree",
-          "type": "splash"
-        },
-        {
-          "ingredient": "Grenadine",
-          "type": "drizzle"
-        }
-      ],
-      "instructions": [
-        "Build in Collins glass"
-      ],
-      "glass": "Collins"
-    },
-    {
-      "id": 26,
-      "name": "Papi Fuego",
-      "ingredients": [
-        {
-          "ingredient": "1800 Reposado",
-          "amount": 2
-        },
-        {
-          "ingredient": "Simple Syrup",
-          "amount": 0.5
-        },
-        {
-          "ingredient": "Orange Slice",
-          "amount": 1,
-          "unit": "squeezed"
-        },
-        {
-          "ingredient": "Angostura Bitters",
-          "amount": 2,
-          "unit": "dash"
-        }
-      ],
-      "instructions": [
-        "Stir"
-      ],
-      "glass": "Rocks"
-    },
-    {
-      "id": 27,
-      "name": "Up in smoke",
-      "ingredients": [
-        {
-          "ingredient": "Mezcal",
-          "amount": 2
-        },
-        {
-          "ingredient": "Lemon Wedges",
-          "amount": 3,
-          "unit": "squeezed"
-        },
-        {
-          "ingredient": "Mint Leaves",
-          "amount": 3
-        },
-        {
-          "ingredient": "Simple Syrup",
-          "amount": 1
-        }
-      ],
-      "instructions": [
-        "Shake and strain over fresh ice"
-      ],
-      "glass": "Rocks",
-      "garnish": "1 mint leave"
-    }
-    
-  ]
+  {
+    "id": 1,
+    "name": "Mojito",
+    "ingredients": [
+      {
+        "ingredient": "Rail Rum",
+        "amount": 1.5
+      },
+      {
+        "ingredient": "Simple Syrup",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Lime Juice",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Sour Mix",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Soda Water",
+        "amount": "topping"
+      },
+      {
+        "ingredient": "Mint"
+      },
+      {
+        "ingredient": "Lime Wheels",
+        "amount": 2
+      }
+    ],
+    "glass": "Collins Glass",
+    "garnish": "None",
+    "instructions": [
+      "Build in 12 oz plastic glass",
+      "shred mint",
+      "transfer in tin to shake",
+      "transfer back to plastic"
+    ],
+    "alcohol": "Rum"
+  },
+  {
+    "id": 2,
+    "name": "Manhattan",
+    "ingredients": [
+      {
+        "ingredient": "Makers",
+        "amount": 2,
+        "note": "Unless Guest Special Request"
+      },
+      {
+        "ingredient": "Sweet Vermouth",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Angostura Bitters",
+        "amount": 2,
+        "unit": "dash"
+      }
+    ],
+    "method": "Stirred Not Shaken",
+    "glass": "Coupe",
+    "garnish": "No Garnish",
+    "alcohol": "Whiskey"
+  },
+  {
+    "id": 3,
+    "name": "Old Fashion",
+    "ingredients": [
+      {
+        "ingredient": "Makers",
+        "amount": 2,
+        "note": "Unless Guest Special Request"
+      },
+      {
+        "ingredient": "Simple Syrup",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Angostura Bitters",
+        "amount": 2,
+        "unit": "dash"
+      },
+      {
+        "ingredient": "Orange Slice",
+        "amount": "squeeze"
+      }
+    ],
+    "glass": "Rocks/ Whiskey",
+    "garnish": "Orange In Drink",
+    "alcohol": "Whiskey"
+  },
+  {
+    "id": 4,
+    "name": "Cosmopolitan",
+    "ingredients": [
+      {
+        "ingredient": "Absolut Citron",
+        "amount": 1.5
+      },
+      {
+        "ingredient": "Triple Sec",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Lime Juice",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Cranberry Juice",
+        "amount": 1
+      }
+    ],
+    "glass": "Coupe",
+    "garnish": "Lime Wheel",
+    "alcohol": "Vodka"
+  },
+  {
+    "id": 5,
+    "name": "Bloody Mary",
+    "ingredients": [
+      {
+        "ingredient": "Rail Vodka",
+        "amount": 1.5
+      },
+      {
+        "ingredient": "Lime Juice",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Bloody Mary Mix",
+        "amount": "fill"
+      },
+      {
+        "ingredient": "Worcestershire Sauce",
+        "amount": 2,
+        "unit": "dash"
+      },
+      {
+        "ingredient": "Tabasco",
+        "amount": 3,
+        "unit": "dash"
+      }
+    ],
+    "glass": "Pint",
+    "garnish": "Olive",
+    "alcohol": "Vodka"
+  },
+  {
+    "id": 6,
+    "name": "Tom Collins",
+    "ingredients": [
+      {
+        "ingredient": "Rail Gin",
+        "amount": 1.5
+      },
+      {
+        "ingredient": "Lemon Juice",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Simple Syrup",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Soda Water",
+        "amount": "topping"
+      }
+    ],
+    "method": "Shake Ingredients Together",
+    "glass": "Collins",
+    "garnish": "Lemon Wedge",
+    "alcohol": "Gin"
+  },
+  {
+    "id": 7,
+    "name": "Sex on the Beach",
+    "ingredients": [
+      {
+        "ingredient": "Vodka",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Peach Schnapps",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Orange Juice",
+        "amount": "equal parts"
+      },
+      {
+        "ingredient": "Cranberry Juice",
+        "amount": "equal parts"
+      }
+    ],
+    "glass": "Shooter Or Collins",
+    "garnish": "Orange When In Collins Glass. No Garnish On Shooter",
+    "alcohol": "Vodka"
+  },
+  {
+    "id": 8,
+    "name": "Lemon Drop",
+    "ingredients": [
+      {
+        "ingredient": "Burnetts Citrus",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Triple Sec",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Simple Syrup",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Sour Mix",
+        "amount": 0.5
+      }
+    ],
+    "glass": "Shooter",
+    "garnish": "Sugar Rim (Give Them An Option To Save Time)",
+    "alcohol": "Vodka"
+  },
+  {
+    "id": 9,
+    "name": "Gummy Bear",
+    "ingredients": [
+      {
+        "ingredient": "Burnetts Razz",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Peach Schnapps",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Sour Mix",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Sprite",
+        "amount": "splash"
+      }
+    ],
+    "glass": "Shooter",
+    "garnish": "None",
+    "alcohol": "Vodka"
+  },
+  {
+    "id": 10,
+    "name": "Apple Martini",
+    "ingredients": [
+      {
+        "ingredient": "Rail Vodka",
+        "amount": 1
+      },
+      {
+        "ingredient": "Apple Pucker",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Sour Mix",
+        "amount": "splash"
+      }
+    ],
+    "glass": "Coupe",
+    "garnish": "Cherry",
+    "alcohol": "Vodka"
+  },
+  {
+    "id": 11,
+    "name": "Moscow Mule",
+    "ingredients": [
+      {
+        "ingredient": "Absolut Lime",
+        "amount": 1.5,
+        "note": "Unless Guest Special Request"
+      },
+      {
+        "ingredient": "Ginger Beer",
+        "amount": "fill"
+      }
+    ],
+    "glass": "12oz Margarita Glass",
+    "garnish": "Lime Wheel",
+    "alcohol": "Vodka"
+  },
+  {
+    "id": 12,
+    "name": "Long Island",
+    "ingredients": [
+      {
+        "ingredient": "Rail Gin",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Rail Vodka",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Triple Sec",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Rail Rum",
+        "amount": 1
+      },
+      {
+        "ingredient": "Sour Mix",
+        "amount": "splash"
+      },
+      {
+        "ingredient": "Coke",
+        "amount": "splash"
+      }
+    ],
+    "glass": "Pint",
+    "garnish": "Lemon Wedge",
+    "alcohol": "Mix"
+  },
+  {
+    "id": 13,
+    "name": "Kamikaze",
+    "ingredients": [
+      {
+        "ingredient": "Vodka",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Triple Sec",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Sour Mix",
+        "amount": "splash"
+      }
+    ],
+    "glass": "Shooter",
+    "garnish": "None",
+    "alcohol": "Vodka"
+  },
+  {
+    "id": 14,
+    "name": "Vegas Bomb",
+    "ingredients": [
+      {
+        "ingredient": "Crown Royal",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Peach Schnapps",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Redbull",
+        "amount": "add"
+      }
+    ],
+    "glass": "9oz Rocks",
+    "garnish": "None",
+    "alcohol": "Whiskey"
+  },
+  {
+    "id": 15,
+    "name": "Orange Crush",
+    "ingredients": [
+      {
+        "ingredient": "Absolut Mandarin",
+        "amount": 1.5
+      },
+      {
+        "ingredient": "Triple Sec",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Orange Juice",
+        "amount": "fill"
+      },
+      {
+        "ingredient": "Sprite",
+        "amount": "splash"
+      }
+    ],
+    "glass": "Pint Glass",
+    "garnish": "Orange Slice",
+    "alcohol": "Vodka"
+  },
+  {
+    "id": 16,
+    "name": "Blue Motorcycle",
+    "ingredients": [
+      {
+        "ingredient": "Rail Vodka",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Rail Gin",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Blue Curacao",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Rail Rum",
+        "amount": 1
+      },
+      {
+        "ingredient": "Sour Mix",
+        "amount": "splash"
+      },
+      {
+        "ingredient": "Sprite",
+        "amount": "splash"
+      }
+    ],
+    "glass": "Pint",
+    "garnish": "Lemon Wedge",
+    "alcohol": "Mix"
+  },
+  {
+    "id": 17,
+    "name": "Mai Tai, Rum Punch and Rum Runner",
+    "ingredients": [
+      {
+        "ingredient": "Captain Morgan",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Bacardi",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Gosling Float",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Pineapple Juice",
+        "amount": "fill half"
+      },
+      {
+        "ingredient": "Orange Juice",
+        "amount": "fill half"
+      },
+      {
+        "ingredient": "Grenadine",
+        "amount": "splash"
+      }
+    ],
+    "glass": "Pint",
+    "alcohol": "Rum"
+  },
+  {
+    "id": 18,
+    "name": "House Margarita",
+    "ingredients": [
+      {
+        "ingredient": "Cazadores",
+        "amount": 1.5
+      },
+      {
+        "ingredient": "Triple Sec",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Sour Mix",
+        "amount": "fill"
+      }
+    ],
+    "instructions": [
+      "Add flavor if requested",
+      "Offer salt or sugar rim",
+      "Shake & strain over fresh ice"
+    ],
+    "glass": "12 oz glass or cup",
+    "alcohol": "Tequila"
+  },
+  {
+    "id": 19,
+    "name": "Grande 24 oz Margarita",
+    "ingredients": [
+      {
+        "ingredient": "Cazadores",
+        "amount": 2
+      },
+      {
+        "ingredient": "Triple Sec",
+        "amount": 1
+      },
+      {
+        "ingredient": "Sour Mix",
+        "amount": "fill"
+      }
+    ],
+    "instructions": [
+      "Add flavor if requested",
+      "Offer salt or sugar rim",
+      "Shake & strain over fresh ice"
+    ],
+    "glass": "20 oz glass or cup",
+    "alcohol": "Tequila"
+  },
+  {
+    "id": 20,
+    "name": "Grande 24 oz Margarita w/ Plunge",
+    "ingredients": [
+      {
+        "ingredient": "Cazadores",
+        "amount": 2
+      },
+      {
+        "ingredient": "Triple Sec",
+        "amount": 1
+      },
+      {
+        "ingredient": "Sour Mix",
+        "amount": "fill"
+      }
+    ],
+    "instructions": [
+      "Add flavor if requested",
+      "Leave room for Coronita",
+      "Shake & strain over fresh ice"
+    ],
+    "glass": "20 oz glass or cup",
+    "alcohol": "Tequila"
+  },
+  {
+    "id": 21,
+    "name": "Slim 67",
+    "ingredients": [
+      {
+        "ingredient": "Cazadores",
+        "amount": 1.5
+      },
+      {
+        "ingredient": "Lime Juice",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Agave",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Soda Water",
+        "amount": "top"
+      }
+    ],
+    "instructions": [
+      "Offer salt or sugar rim",
+      "Shake & strain over fresh ice"
+    ],
+    "glass": "12 oz glass",
+    "alcohol": "Tequila"
+  },
+  {
+    "id": 22,
+    "name": "Jalapeno Margarita",
+    "ingredients": [
+      {
+        "ingredient": "Jalapeno Tequila",
+        "amount": 1.5
+      },
+      {
+        "ingredient": "Habanero Agave",
+        "amount": 0.75
+      },
+      {
+        "ingredient": "Sour Mix",
+        "amount": "fill"
+      }
+    ],
+    "instructions": [
+      "Offer salt or sugar rim",
+      "Shake and strain over fresh ice"
+    ],
+    "glass": "12 oz glass",
+    "alcohol": "Tequila"
+  },
+  {
+    "id": 23,
+    "name": "Mexican Mule",
+    "ingredients": [
+      {
+        "ingredient": "Milagro Tequila",
+        "amount": 1.5
+      },
+      {
+        "ingredient": "Angostura Bitters",
+        "amount": 2,
+        "unit": "dash"
+      },
+      {
+        "ingredient": "Lime Juice",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Ginger Beer",
+        "amount": "fill"
+      }
+    ],
+    "glass": "12 oz glass",
+    "alcohol": "Tequila"
+  },
+  {
+    "id": 24,
+    "name": "Jameson Cold Brew Cocktail",
+    "ingredients": [
+      {
+        "ingredient": "Jameson Cold Brew Whiskey",
+        "amount": 1
+      },
+      {
+        "ingredient": "St. Brenans Irish Cream Liqueur",
+        "amount": 1
+      },
+      {
+        "ingredient": "Simple Syrup",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Cold Brew Coffee",
+        "amount": "fill"
+      }
+    ],
+    "glass": "12 oz glass",
+    "alcohol": "Whiskey"
+  },
+  {
+    "id": 25,
+    "name": "Mi Vida Loca",
+    "ingredients": [
+      {
+        "ingredient": "Captain Morgan",
+        "amount": 1
+      },
+      {
+        "ingredient": "Malibu",
+        "amount": 1
+      },
+      {
+        "ingredient": "Pineapple Juice",
+        "type": "fill"
+      },
+      {
+        "ingredient": "Cranberry Juice",
+        "type": "fill"
+      },
+      {
+        "ingredient": "Mango puree",
+        "type": "splash"
+      },
+      {
+        "ingredient": "Grenadine",
+        "type": "drizzle"
+      }
+    ],
+    "instructions": ["Build in Collins glass"],
+    "glass": "Collins"
+  },
+  {
+    "id": 26,
+    "name": "Papi Fuego",
+    "ingredients": [
+      {
+        "ingredient": "1800 Reposado",
+        "amount": 2
+      },
+      {
+        "ingredient": "Simple Syrup",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Orange Slice",
+        "amount": 1,
+        "unit": "squeezed"
+      },
+      {
+        "ingredient": "Angostura Bitters",
+        "amount": 2,
+        "unit": "dash"
+      }
+    ],
+    "instructions": ["Stir"],
+    "glass": "Rocks"
+  },
+  {
+    "id": 27,
+    "name": "Up in smoke",
+    "ingredients": [
+      {
+        "ingredient": "Mezcal",
+        "amount": 2
+      },
+      {
+        "ingredient": "Lemon Wedges",
+        "amount": 3,
+        "unit": "squeezed"
+      },
+      {
+        "ingredient": "Mint Leaves",
+        "amount": 3
+      },
+      {
+        "ingredient": "Simple Syrup",
+        "amount": 1
+      }
+    ],
+    "instructions": ["Shake", "strain over fresh ice"],
+    "glass": "Rocks",
+    "garnish": "1 mint leave"
+  },
+  {
+    "id": 28,
+    "name": "Trash Can",
+    "ingredients": [
+      {
+        "ingredient": "Rail Vodka",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Rail Gin",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Blue Curacao",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Rail Rum",
+        "amount": 1
+      },
+      {
+        "ingredient": "Sour Mix",
+        "type": "splash"
+      },
+      {
+        "ingredient": "Redbull",
+        "type": "Plunge"
+      }
+    ],
+    "instructions": ["Build in glass", "add redbull plunge"],
+    "glass": "12 oz glass"
+  },
+  {
+    "id": 29,
+    "name": "Dark and Stormy",
+    "ingredients": [
+      {
+        "ingredient": "Gosling",
+        "amount": 1.5
+      },
+      {
+        "ingredient": "Lime Juice",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Ginger Beer",
+        "type": "Fill"
+      }
+    ],
+    "instructions": ["Build in glass"],
+    "glass": "12 oz glass"
+  }
+]

@@ -21,7 +21,7 @@ const DrinkCard = ({ drink }) => {
           </ul>
           {/* display Instructions if they exist */}
           {Array.isArray(drink.instructions) ? (
-            <div>
+            <div className="drink-instructions">
               <h3>Instructions</h3>
               <ul>
                 {drink.instructions.map((step) => (
