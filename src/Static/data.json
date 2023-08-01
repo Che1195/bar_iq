@@ -21,7 +21,7 @@
       },
       {
         "ingredient": "Soda Water",
-        "amount": "topping"
+        "type": "top"
       },
       {
         "ingredient": "Mint"
@@ -131,12 +131,12 @@
       },
       {
         "ingredient": "Bloody Mary Mix",
-        "amount": "fill"
+        "type": "fill"
       },
       {
         "ingredient": "Worcestershire Sauce",
         "amount": 2,
-        "unit": "dash"
+        "type": "dash"
       },
       {
         "ingredient": "Tabasco",
@@ -166,7 +166,7 @@
       },
       {
         "ingredient": "Soda Water",
-        "amount": "topping"
+        "type": "top"
       }
     ],
     "method": "Shake Ingredients Together",
@@ -699,7 +699,7 @@
       {
         "ingredient": "Lemon wedge",
         "amount": 3,
-        "unit": "squeezed"
+        "unit": "Squeezed"
       },
       {
         "ingredient": "Mint",
@@ -736,7 +736,7 @@
       },
       {
         "ingredient": "Sour Mix",
-        "type": "splash"
+        "type": "Splash"
       },
       {
         "ingredient": "Redbull",
@@ -764,6 +764,33 @@
       }
     ],
     "instructions": ["Build in glass"],
-    "glass": "12 oz glass"
+    "glass": "12oz glass"
+  },
+  {
+    "id": 30,
+    "name": "Espresso Martini",
+    "ingredients": [
+      {
+        "ingredient": "Vanilla Absolute",
+        "amount": 1
+      },
+      {
+        "ingredient": "Kapali",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Licor 43",
+        "amount": 0.5
+      },
+      {
+        "ingredient": "Coffee",
+        "type": "Top"
+      }
+    ],
+    "instructions": [
+      "Shake and strain over ice"
+    ],
+    "glass": "12oz Glass"
   }
+  
 ]

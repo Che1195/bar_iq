@@ -1,8 +1,8 @@
 import "./Static/App.css";
 import React, { useState } from "react";
 
-import DrinkCard from "./Components/DrinkCard";
-import SearchBar from "./Components/SearchBar";
+import DrinkCard from "./components/DrinkCard";
+import SearchBar from "./components/SearchBar";
 
 import DRINKS_DATA from "./Static/data.json";
 

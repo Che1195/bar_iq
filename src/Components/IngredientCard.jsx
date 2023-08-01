@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import IngredientImage from "./IngredientImage";
+import { upperFirstLetter } from "../utils/helpers";
 import "../Static/DrinkCard.css";
 
 const getIngredientImageFileName = (name) => {
@@ -22,7 +23,7 @@ const IngredientCard = ({ ingredient, index }) => {
 
       {ingredient.amount && show ? `${ingredient.amount}` : ""}
       {typeof ingredient.amount === typeof 1 && show ? "oz, " : " "}
-      {ingredient.type ? `${ingredient.type} ` : " "}
+      {ingredient.type ? `${upperFirstLetter(ingredient.type)}, ` : " "}
       {ingredient.ingredient && show ? `${ingredient.ingredient} ` : ""}
     </li>
   );
